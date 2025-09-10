@@ -8,7 +8,7 @@ print (resultado_soma)
 
 # exercicios notas usando funçoes
 
-notas = [9.5,10,8.5,6]
+notas = [9.5,10,8.5,6]  # aqui temos uma lista, no caso oque esta dentro de [] é uma lista, e essa lista se chama notas que é uma variavel
 def calculo_media(notas):
     total = sum(notas)
     media = total / len(notas)
